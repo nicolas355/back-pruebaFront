@@ -26,7 +26,7 @@ export class PdfRoutes {
                     file.originalname = Buffer.from(file.originalname, 'latin1').toString('utf8')
                     cb(null, true)
                  }else {
-                    cb(new Error('The FIle must be pdf'))
+                    cb(new Error('The File must be pdf'))
                  }
              } })
 
