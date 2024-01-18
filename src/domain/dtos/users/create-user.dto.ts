@@ -15,14 +15,14 @@ export class CreateUserDto {
             fecha
         } = object
 
-        if (!nombre) return ['El nombre es requerido']
-        if (!apellido) return ['El apellido es requerido']
-        if (!numero) return ['El numero es requerido']
-        if (!fecha) return ['La fecha es requerido']
+        if (!nombre) return ['nombre is required']
+        if (!apellido) return ['apellido is required']
+        if (!numero) return ['numero is required']
+        if (!fecha) return ['fecha is required']
 
         const isValidDate = new Date(fecha)
 
-        if (isNaN(isValidDate.getTime())) return ['Se debe mandar una fecha valida']
+        if (isNaN(isValidDate.getTime())) return ['Fecha must be a valid Date']
 
 
         return [undefined, new CreateUserDto(nombre, apellido, numero, isValidDate)]

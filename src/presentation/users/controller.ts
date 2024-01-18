@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import { type Request, type Response } from "express";
 import { CustomError } from "../../domain/errors/custom.erros";
 import { CreateUserDto } from "../../domain/dtos/users/create-user.dto";
 import { UserService } from "../services/user.service";

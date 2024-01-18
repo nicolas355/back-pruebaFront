@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { UserRoutes } from "./users/routes";
+import { ImageRoutes } from "./images/routes";
 
 
 export class AppRoutes {
@@ -9,6 +10,7 @@ export class AppRoutes {
 
 
         router.use('/users', UserRoutes.routes)
+        router.use('/image', ImageRoutes.routes)
         return router
     }
 }

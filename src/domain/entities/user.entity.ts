@@ -3,11 +3,11 @@ import { CustomError } from "../errors/custom.erros"
 
 export class UserEntity {
     private constructor(
-        public readonly id: number,
-        public readonly nombre: string,
-        public readonly apellido: string,
-        public readonly numero: string,
-        public readonly fecha: Date,
+        public id: number,
+        public nombre: string,
+        public apellido: string,
+        public numero: string,
+        public fecha: Date,
     ) {}
 
 
