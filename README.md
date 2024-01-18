@@ -10,13 +10,14 @@
 ### Instalar dependencias
 
 `npm install`
+
 Crear un archivo `.env` y pegar las variables que se encuentran en `.env.template` (Solo se puede cambiar el valor de `PORT` si se desea)
 
 
 ### Levantar los contenedores de docker
 `docker compose up`
 
-Entrando a `http://localhost:8080` estara levantado pdAdmin para poder ver las tablas de la base de datos a usar.
+Entrando a `http://localhost:8080` estara levantado pgAdmin para poder ver las tablas de la base de datos a usar.
 
 ### Generar las migraciones
 
@@ -24,7 +25,7 @@ Entrando a `http://localhost:8080` estara levantado pdAdmin para poder ver las t
 
 ### Crear carpetas para guardar los archivos
 
-En la raiz del proyecto se deben crear dos carpetas `images` y `pdf`.
+En la raíz del proyecto se deben crear dos carpetas `images` y `pdf`.
 
 ### Levantar el servidor
 
