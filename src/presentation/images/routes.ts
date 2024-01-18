@@ -33,6 +33,9 @@ export class ImageRoutes {
             
             
         router.post('/', upload.single('image') ,imageController.saveImage)
+        router.get('/', imageController.getAll)
+        router.get('/name/:name', imageController.getByName)
+        router.get('/:id', imageController.getById)
         return router
     }
 }
