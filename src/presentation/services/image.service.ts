@@ -1,5 +1,5 @@
 import { prisma } from "../../data/postgres"
-import { ImageSendDto } from "../../domain/dtos/users/image-send.dto"
+import { ImageSendDto } from "../../domain/dtos/image/image-send.dto"
 import { ImageEntity } from "../../domain/entities/image.entity"
 import { CustomError } from "../../domain/errors/custom.erros"
 
