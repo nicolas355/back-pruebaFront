@@ -22,3 +22,25 @@ En la raíz del proyecto se deben crear dos carpetas `images` y `pdf`.
 ### Levantar el servidor
 
 `npm run dev`
+
+## Endpoints
+
+### Users
+GET y POST `/api/prueba/users`
+
+GET by id `/api/prueba/users/:id`
+
+### Images
+POST y GET  `/api/prueba/image`
+
+GET by Name  `/api/prueba/image/name/:name`
+
+GET by Id  `/api/prueba/image/:id`
+
+### Pdf
+GET y POST `/api/prueba/pdf`
+
+GET by Name  `/api/prueba/pdf/name/:name`
+
+GET by Id  `/api/prueba/pdf/:id`
+
