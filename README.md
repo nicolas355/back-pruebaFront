@@ -28,10 +28,14 @@ En la raíz del proyecto se deben crear dos carpetas `images` y `pdf`.
 ### Users
 GET y POST `/api/prueba/users`
 
+- Post user recibe `nombre`(string), `apellido`(string), `numero`(number) y `fecha`(date)
+
 GET by id `/api/prueba/users/:id`
 
 ### Images
 POST y GET  `/api/prueba/image`
+
+- Post image recibe `titulo`(string) y el archivo imagen
 
 GET by Name  `/api/prueba/image/name/:name`
 
@@ -39,6 +43,8 @@ GET by Id  `/api/prueba/image/:id`
 
 ### Pdf
 GET y POST `/api/prueba/pdf`
+
+- Post pdf recibe `titulo`(string) y el archivo pdf
 
 GET by Name  `/api/prueba/pdf/name/:name`
 
